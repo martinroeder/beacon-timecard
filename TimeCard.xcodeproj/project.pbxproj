@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		20834EE61CFCB6CE001A5DBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20834EE51CFCB6CE001A5DBD /* AppDelegate.swift */; };
-		20834EE81CFCB6CE001A5DBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20834EE71CFCB6CE001A5DBD /* ViewController.swift */; };
 		20834EEB1CFCB6CE001A5DBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20834EE91CFCB6CE001A5DBD /* Main.storyboard */; };
 		20834EEE1CFCB6CE001A5DBD /* TimeCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 20834EEC1CFCB6CE001A5DBD /* TimeCard.xcdatamodeld */; };
 		20834EF01CFCB6CE001A5DBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20834EEF1CFCB6CE001A5DBD /* Assets.xcassets */; };
 		20834EF31CFCB6CE001A5DBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20834EF11CFCB6CE001A5DBD /* LaunchScreen.storyboard */; };
+		20834EFB1CFCB95A001A5DBD /* LogOnVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20834EFA1CFCB95A001A5DBD /* LogOnVC.swift */; };
+		20834EFD1CFCBA16001A5DBD /* TimeCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20834EFC1CFCBA16001A5DBD /* TimeCardVC.swift */; };
+		2092BAE61CFF99E5007EE319 /* MRDataServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2092BAE51CFF99E5007EE319 /* MRDataServer.swift */; };
+		2092BAEA1CFF9DB4007EE319 /* MRBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2092BAE91CFF9DB4007EE319 /* MRBeacon.swift */; };
+		20A710831CFF2C88007F5A87 /* MRHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A710821CFF2C88007F5A87 /* MRHours.swift */; };
+		20A710851CFF3B82007F5A87 /* MRTimeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A710841CFF3B82007F5A87 /* MRTimeCard.swift */; };
+		20A710871CFF5E79007F5A87 /* ManualClockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A710861CFF5E79007F5A87 /* ManualClockVC.swift */; };
+		20A710891CFF669D007F5A87 /* EditTimeCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A710881CFF669D007F5A87 /* EditTimeCardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		20834EE21CFCB6CE001A5DBD /* TimeCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20834EE51CFCB6CE001A5DBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20834EE71CFCB6CE001A5DBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		20834EEA1CFCB6CE001A5DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		20834EED1CFCB6CE001A5DBD /* TimeCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeCard.xcdatamodel; sourceTree = "<group>"; };
 		20834EEF1CFCB6CE001A5DBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20834EF21CFCB6CE001A5DBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20834EF41CFCB6CE001A5DBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20834EFA1CFCB95A001A5DBD /* LogOnVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogOnVC.swift; sourceTree = "<group>"; };
+		20834EFC1CFCBA16001A5DBD /* TimeCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeCardVC.swift; sourceTree = "<group>"; };
+		2092BAE51CFF99E5007EE319 /* MRDataServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRDataServer.swift; sourceTree = "<group>"; };
+		2092BAE91CFF9DB4007EE319 /* MRBeacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRBeacon.swift; sourceTree = "<group>"; };
+		20A710821CFF2C88007F5A87 /* MRHours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRHours.swift; sourceTree = "<group>"; };
+		20A710841CFF3B82007F5A87 /* MRTimeCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MRTimeCard.swift; sourceTree = "<group>"; };
+		20A710861CFF5E79007F5A87 /* ManualClockVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualClockVC.swift; sourceTree = "<group>"; };
+		20A710881CFF669D007F5A87 /* EditTimeCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTimeCardVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +71,45 @@
 			isa = PBXGroup;
 			children = (
 				20834EE51CFCB6CE001A5DBD /* AppDelegate.swift */,
-				20834EE71CFCB6CE001A5DBD /* ViewController.swift */,
 				20834EE91CFCB6CE001A5DBD /* Main.storyboard */,
+				2092BAEB1CFF9F3A007EE319 /* Location Detection Subsystem */,
+				2092BAE81CFF9D28007EE319 /* Data Server Subsystem */,
+				2092BAE71CFF9D1C007EE319 /* Time Card Subsystem */,
 				20834EEF1CFCB6CE001A5DBD /* Assets.xcassets */,
 				20834EF11CFCB6CE001A5DBD /* LaunchScreen.storyboard */,
 				20834EF41CFCB6CE001A5DBD /* Info.plist */,
 				20834EEC1CFCB6CE001A5DBD /* TimeCard.xcdatamodeld */,
 			);
 			path = TimeCard;
+			sourceTree = "<group>";
+		};
+		2092BAE71CFF9D1C007EE319 /* Time Card Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				20834EFA1CFCB95A001A5DBD /* LogOnVC.swift */,
+				20834EFC1CFCBA16001A5DBD /* TimeCardVC.swift */,
+				20A710861CFF5E79007F5A87 /* ManualClockVC.swift */,
+				20A710881CFF669D007F5A87 /* EditTimeCardVC.swift */,
+			);
+			name = "Time Card Subsystem";
+			sourceTree = "<group>";
+		};
+		2092BAE81CFF9D28007EE319 /* Data Server Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				2092BAE51CFF99E5007EE319 /* MRDataServer.swift */,
+				20A710821CFF2C88007F5A87 /* MRHours.swift */,
+				20A710841CFF3B82007F5A87 /* MRTimeCard.swift */,
+			);
+			name = "Data Server Subsystem";
+			sourceTree = "<group>";
+		};
+		2092BAEB1CFF9F3A007EE319 /* Location Detection Subsystem */ = {
+			isa = PBXGroup;
+			children = (
+				2092BAE91CFF9DB4007EE319 /* MRBeacon.swift */,
+			);
+			name = "Location Detection Subsystem";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20834EFB1CFCB95A001A5DBD /* LogOnVC.swift in Sources */,
+				20A710831CFF2C88007F5A87 /* MRHours.swift in Sources */,
+				20834EFD1CFCBA16001A5DBD /* TimeCardVC.swift in Sources */,
+				20A710851CFF3B82007F5A87 /* MRTimeCard.swift in Sources */,
 				20834EEE1CFCB6CE001A5DBD /* TimeCard.xcdatamodeld in Sources */,
-				20834EE81CFCB6CE001A5DBD /* ViewController.swift in Sources */,
+				2092BAE61CFF99E5007EE319 /* MRDataServer.swift in Sources */,
+				2092BAEA1CFF9DB4007EE319 /* MRBeacon.swift in Sources */,
+				20A710871CFF5E79007F5A87 /* ManualClockVC.swift in Sources */,
 				20834EE61CFCB6CE001A5DBD /* AppDelegate.swift in Sources */,
+				20A710891CFF669D007F5A87 /* EditTimeCardVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +344,7 @@
 				20834EF91CFCB6CE001A5DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
